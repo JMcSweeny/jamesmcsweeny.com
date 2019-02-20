@@ -1,3 +1,3 @@
 import React from "react"
 
-export default () => <div>James McSweeny.com</div>
+export default () => <h1>James McSweeny.com</h1>
