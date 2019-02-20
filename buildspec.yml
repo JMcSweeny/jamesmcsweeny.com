@@ -4,11 +4,11 @@ phases:
     commands:
       - echo Entering install phase...
       - npm install
-  build
+  build:
     commands:
       - echo Entering build phase...
       - npm run build
-  post_build
+  post_build:
     commands:
       - echo Entering post_build phase...
       - npm run deploy
