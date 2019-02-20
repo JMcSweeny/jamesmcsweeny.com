@@ -1,0 +1,14 @@
+version 0.2
+phases:
+  install:
+    commands:
+      - echo Entering install phase...
+      - npm install
+  build
+    commands:
+      - echo Entering build phase...
+      - npm run build
+  post_build
+    commands:
+      - echo Entering post_build phase...
+      - npm run deploy
